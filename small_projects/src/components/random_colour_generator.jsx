@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 const Random_colour_generator = () => {
     const [typeofcolour, settypeofcolour] = useState("hex")
-    const [colour, setcolour] = useState("#000000")
+    const [colour, setcolour] = useState("#BBCDF3")
 
     function randomChoose(arr) {
          let num = Math.floor(Math.random()*arr.length)

@@ -21,3 +21,18 @@
     align-items: center;
     justify-content: space-between;
 } */
+
+.active{
+    fill: yellow;
+    width: 4vh;
+}
+
+.inactive{
+    width: 9vh;
+}
+
+.stars{
+    height: 12vh;
+    size: 12vw;
+    margin-right: 12px;
+}
