@@ -3,6 +3,7 @@ import './App.css'
 import Accordion from './components/accordion.jsx'
 import Random_colour_generator from './components/random_colour_generator.jsx'
 import Star_rating from './components/star_rating.jsx'
+import Image_slider from './components/image_slider.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
     <Accordion/>
     <Random_colour_generator/>
     <Star_rating/>
+    <Image_slider/>
     </>
   )
 }
