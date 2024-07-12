@@ -36,3 +36,24 @@
     size: 12vw;
     margin-right: 12px;
 }
+
+
+
+/* styles for product slider */
+
+.products_container{
+    display: grid;
+    /* grid: 150px / auto auto auto; */
+    grid-gap: 29px;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.product_image{
+    height: 216px;
+    width: 175px;
+    object-fit: cover;
+}
