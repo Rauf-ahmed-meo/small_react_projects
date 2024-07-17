@@ -57,3 +57,28 @@
     width: 175px;
     object-fit: cover;
 }
+
+
+#sidemenu-ul{
+    
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    transform: translateX(0px);
+    display: block;
+    list-style-type: decimal;
+}
+
+#sidemenu-li{
+    display: block;
+    margin: 0 5px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+}
+
+
+.no-style {
+    all: unset;
+  }
+  
